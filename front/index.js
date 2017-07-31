@@ -12,8 +12,8 @@ import ScrollArea from 'react-scrollbar';
 
 import PropTypes from 'prop-types';
 
-import './css/bootstrap.min.css';
-import './css/style.scss';
+import './bootstrap.min.css';
+import './style.scss';
 
 @observer
 export class App extends Component {
@@ -35,7 +35,7 @@ export class App extends Component {
             <div className="container">
                 <div className="row">
                     <ScrollArea
-                        className="area row col-lg-3 col-md-4"
+                        className="filterArea row col-lg-3 col-md-4"
                         smoothScrolling={true}
                         vertical={true}
                         horizontal={false}
@@ -46,7 +46,7 @@ export class App extends Component {
                     </ScrollArea>
 
                     <ScrollArea
-                        className="area row col-lg-9 col-md-8"
+                        className="outArea row col-lg-9 col-md-8"
                         smoothScrolling={true}
                         vertical={true}
                         horizontal={false}

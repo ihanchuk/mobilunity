@@ -6,7 +6,7 @@ const SdkItem = (props) => {
     return (
         <div className="col-lg-4 sdkItem">
             <div>
-                <h3>{item.name} </h3>
+                <h4>{item.name} </h4>
                 <ul className="sdkItemTags">
                     {
                         item.tags.map((tag, index) => <li key={index}>{tag}</li>)

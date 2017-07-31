@@ -1,0 +1,8 @@
+ .outArea {
+  margin: 0 auto;
+  height: 600px;
+}
+
+.outArea .scrollbar-container.vertical{
+  left: 0;
+}

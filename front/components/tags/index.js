@@ -1,5 +1,5 @@
 import React from 'react';
-import './tags-component.css';
+import './tags-component.scss';
 
 const Tags = (props) => {
     const { appTags, filteringTag, filterByTag } = props;

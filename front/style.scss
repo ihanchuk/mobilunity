@@ -1,0 +1,43 @@
+$font-stack:    Helvetica, sans-serif;
+$font-primary-size: 14px;
+$primary-color: #333;
+
+$text-header-padding: 30px;
+$small-header-padding: 5px;
+
+$text-header-size: 36px;
+$text-header-increment: $text-header-size/8;
+
+body {
+  font: $font-primary-size $font-stack;
+  color: $primary-color;
+}
+
+h1,h2,h3{
+  padding-left:$text-header-padding;
+}
+
+h4,h5,h6{
+  padding-left:$small-header-padding;
+}
+
+h1{
+  font-size:$text-header-size;
+}
+
+h2{
+  font-size:$text-header-size - ( $text-header-increment);
+}
+
+h3{
+  font-size:$text-header-size - ( $text-header-increment * 2);
+}
+
+h4{
+  font-size:$text-header-size - ( $text-header-increment * 3);
+}
+
+
+h5{
+  font-size:$text-header-size - ( $text-header-increment * 4);
+}

@@ -16,7 +16,7 @@ const Search = (props) => {
 }
 
 Search.propTypes = {
-        filterByTag: React.PropTypes.func.isRequired
-    }
+    filterByTag: React.PropTypes.func.isRequired
+}
 
 export default observer(Search);
