@@ -1,0 +1,18 @@
+.search{
+    background: #f1ede0;
+    padding:20px;
+    border-radius: 5px;
+}
+
+.search input[type=text]{
+    border-radius: 30px;
+    border:1px solid black;
+    height:32px;
+    padding:5px;
+    width:100%;
+    border:1px solid #898d92;
+}
+
+.search input[type=text]:focus{
+    border:2px solid #2b8eff;
+}
